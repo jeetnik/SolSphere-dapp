@@ -3,7 +3,7 @@ import { cn } from "../lib/utils";
 import { DotPattern } from "./dot-pattern";
 import { TypewriterEffect } from "./ui/typewrite";
 import { WordRotate } from "./ui/word";
-let words = [
+const words = [
     {
       text: "Unlock",
       className: "text-white dark:text-white",

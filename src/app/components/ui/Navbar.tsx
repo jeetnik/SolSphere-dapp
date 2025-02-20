@@ -4,7 +4,7 @@ import { WalletMultiButton, WalletDisconnectButton } from "@solana/wallet-adapte
 import Link from "next/link";
 import { Menu, X } from "lucide-react"; // Icons for the mobile menu
 
-export default function Navbar({ network, setNetwork }: { network: string; setNetwork: string }) {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (

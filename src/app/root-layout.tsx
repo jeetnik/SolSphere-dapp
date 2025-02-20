@@ -1,16 +1,15 @@
 "use client";
 
-import { Geist, Geist_Mono } from "next/font/google";
+import {  Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "../app/components/ui/Navbar";
 import { ThemeProvider } from "../app/components/theme-provider"
 import { ConnectionProvider, WalletProvider } from "@solana/wallet-adapter-react";
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
-import { clusterApiUrl } from "@solana/web3.js";
-import ShowSolBalance from "../app/Balance/page"
+
 import Fotter from "./components/fotter"
 
-require("@solana/wallet-adapter-react-ui/styles.css");
+import"@solana/wallet-adapter-react-ui/styles.css"
 
 
 

@@ -1,7 +1,7 @@
 "use client";
 
-import { cn } from "../lib/utils";
-import { useState, useEffect } from "react";
+
+import { useState, } from "react";
 import { useWallet, useConnection } from "@solana/wallet-adapter-react";
 import { LAMPORTS_PER_SOL } from "@solana/web3.js";
 import toast, { Toaster } from "react-hot-toast";
@@ -84,8 +84,8 @@ export default function RequestAirdrop() {
       );
 
       setAmount(""); // Reset input after success
-    } catch (err: any) {
-      toast.error(`❌ Airdrop failed: ${err.message || err}`, {
+    } catch (err) {
+      toast.error(`❌ Airdrop failed: ${err}`, {
         style: { background: "#ff4d4d", color: "#fff" },
       });
     } finally {

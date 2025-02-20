@@ -11,7 +11,7 @@ export const HoverEffect = ({
   children: ReactNode;
   className?: string;
 }) => {
-  let [hovered, setHovered] = useState(false);
+  const [hovered, setHovered] = useState(false);
 
   return (
     <div className={cn("flex justify-center items-center", className)}>
