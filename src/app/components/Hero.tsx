@@ -44,7 +44,7 @@ export default function Hero(){
       >
         
       </DotPattern>
-      <TypewriterEffect words={words} />
+      <h1><TypewriterEffect words={words} /></h1>
       <br></br>
       <WordRotate
   className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold bg-transparent text-blue-600"
