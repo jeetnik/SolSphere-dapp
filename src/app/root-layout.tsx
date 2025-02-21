@@ -21,6 +21,7 @@ const geistMono = Geist_Mono({
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <meta name="google-site-verification" content="M_46EfodvjRbZ_6fI9JmFbDgrVzKB20nO14B7b2D00o" />
       <body className={` ${geistMono.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <ConnectionProvider endpoint={"https://api.devnet.solana.com"}>
