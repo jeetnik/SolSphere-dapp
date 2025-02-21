@@ -24,6 +24,8 @@ export const metadata: Metadata = {
     description:
       "Solspher makes launching Solana-based tokens easy and secure. Start your crypto journey today!",
     images: ["https://yourwebsite.com/solspher-preview.jpg"],
+  },other: {
+    "google-site-verification": "M_46EfodvjRbZ_6fI9JmFbDgrVzKB20nO14B7b2D00o",
   },
 };
 
